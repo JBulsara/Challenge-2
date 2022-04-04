@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial;
+    margin: 0;
+  }
+  
+  main {
+    display: flex;
+    /* Forces elements to the next line if they don't fit */
+    flex-wrap: wrap;
+    margin-top: 2%;
+  }
+  
+  .header {
+    display: flex;
+    /* Forces elements to the next line if they don't fit */
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 60px;
+    background: #eceef0;
+    color: rgb(87, 166, 192);
+  }
+
+  .header h1{
+      display: inline-block;
+      font-size: 48px;
+  }
+  
+.header div ul li {
+    display: inline-block;
+    margin-left: 30px;
+
+}
+aside {
+    flex: 1;
+    background-color: #eceef0;
+    padding: 80px;
+    text-align: left;
+  }
+  
+
+  .footer aside h1 {
+    font-size: 48px;
+     border-spacing: 20px;
+  }
+
+  .footer div {
+    display: inline-block;
+  }
+
+  .footer ul li {
+    display: inline-block;
+    margin-inline-end: 160px; 
+  }
+
+  .about {
+      width: 30%;
+      max-width: 30%;
+      float: left;
+  }
+
+  .about h1 {
+    text-align: right;
+    font-size: 48px;
+    margin-right: 15px;
+   }
+
+   .about-details {
+        border-left: 8px solid #000;
+        padding-left: 20px;
+        float: left;
+        width: 60%;
+        max-width: 60%;
+        text-align: justify;
+        font-size: 14px;
+        color: #000;
+   }
+
+   .work {
+    width: 30%;
+    max-width: 30%;
+    float: left;
+}
+
+.work h1 {
+  text-align: right;
+  font-size: 48px;
+  margin-right: 15px;
+ }
+ .work .card {
+    border-left: 8px solid #000;
+    padding-left: 20px;
+    float: left;
+    width: 60%;
+    max-width: 60%;
+    text-align: justify;
+    font-size: 14px;
+    color: #000;
+}
