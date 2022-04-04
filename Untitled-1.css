@@ -18,7 +18,6 @@
     display: flex;
     /* Forces elements to the next line if they don't fit */
     flex-wrap: wrap;
-    justify-content: space-between;
     padding: 60px;
     background: #eceef0;
     color: rgb(87, 166, 192);
@@ -29,7 +28,7 @@
       font-size: 48px;
   }
   
-.header div ul li {
+.header div ul li{
     display: inline-block;
     margin-left: 30px;
 
@@ -57,7 +56,7 @@ aside {
   }
 
   .about {
-      width: 30%;
+      width: 20%;
       max-width: 30%;
       float: left;
   }
@@ -77,6 +76,34 @@ aside {
         text-align: justify;
         font-size: 14px;
         color: #000;
+   }
+
+   .work-details {
+        border-left: 8px solid #000;
+        padding-left: 20px;
+        float: left;
+        width: 60%;
+        max-width: 60%;
+        text-align: justify;
+        font-size: 14px;
+   }
+
+   .images-tiles {
+    width: 50%;
+    float: left;
+    position: relative;
+    font-family: Arial;
+   }
+
+
+   .images-tiles img{
+    width: 50%;
+    float: left;
+    max-height: 300px;
+   }
+
+  .pad-left {
+        padding-left: 20px;    
    }
 
    .work {
@@ -99,4 +126,47 @@ aside {
     text-align: justify;
     font-size: 14px;
     color: #000;
+}
+
+section {
+  width: 100%;
+}
+
+.work-images-main {
+  width: 70%;
+  float: left;
+}
+
+.main-image {
+  width: 100%;
+  display: flex;
+  position: relative;
+  font-family: Arial;
+}
+
+.main-image img {
+  width: 100%;
+}
+
+.main-work-images {
+  width: 100%;
+}
+
+.margin-top1 {
+  width: 100%;
+  display: flex;
+}
+
+.margin-top1 img {
+  width: 100%;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
 }
